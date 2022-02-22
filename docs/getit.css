@@ -25,6 +25,170 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+
+}
+
+
+.appbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7d736;
+  height: 3rem;
+  align-items: center;
+  box-shadow: 0px 0px 15px black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+img {
+  height: 80%;
+  margin:0 1rem 0 0.5rem;
+}
+
+.form-card {
+  border-radius: 0.5rem;
+
+  width: 33%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+
+  margin: 2rem 10rem 1rem 10rem;
+  padding: 0.5rem 0.8rem 0.8rem 0.8rem;
+
+  box-shadow: 0px 4px 8px #4c4c4c;
+
+}
+
+.form-card-title{
+  border: hidden;
+  font-size: medium;
+  font-weight: bold;
+}
+
+textarea{
+  border: hidden;
+  font-family:'Roboto', sans-serif;
+  margin-bottom: 0.4rem;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0.7rem 0 0.2rem 0.2rem;
+}
+
+.btn{
+  background-color: #f7d736;
+  border: hidden;
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 4px #4c4c4c;
+  padding: 0.5rem;
+
+  font-weight: bold;
+  color: black;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+.card{
+  width: 15%;
+  height: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background-color: #ef89ba;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 0.4rem;
+
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-5{
+  transform: rotate(-1deg);
+}
+.card-rotation-6{
+  transform: rotate(0deg);
+}
+.card-rotation-7{
+  transform: rotate(1deg);
+}
+.card-rotation-8{
+  transform: rotate(2deg);
+}
+.card-rotation-9{
+  transform: rotate(3deg);
+}
+
+.card-rotation-10{
+  transform: rotate(4deg);
+}
+
+.card-rotation-11{
+  transform: rotate(5deg);
+}
+
+.card-title{
+  font-weight: bold;
+  font-size:larger;
+  display: flex;
+}
+
+.card-content{
+  align-self: center;
+  color: #4c4c4c;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
