@@ -5,8 +5,7 @@ TRIO:
 - Eduardo Araujo
 - Felipe Schiavinato
 - Jerônimo de Abreu Afrange
-- Link do GitHub Pages: https://github.com/insper-tecnologias-web/desafio-css-jeronimoaa_eduardoarc_felipesbs
-
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-jeronimoaa_eduardoarc_felipesbs/
 ## Desafio CSS
 
 Na aula passada nós desenvolvemos a primeira versão do nosso primeiro site, o Get-it. Na aula de hoje nós vamos nos focar no estilo da página para relembrar e aprender alguns conceitos de CSS.
